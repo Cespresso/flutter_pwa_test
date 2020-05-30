@@ -2,6 +2,7 @@
 
 ここで見れるよ
 https://cespresso.github.io/flutter_pwa_test
+https://flutter-pwa-test.firebaseapp.com
 
 ### 変数について
 DEPLOY_TOKEN_FIREBASE
