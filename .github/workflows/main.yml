@@ -20,9 +20,9 @@ jobs:
           channel: 'beta'
 
       - name: install
-          run: |
-            flutter config --enable-web
-            flutter pub get
+        run: |
+          flutter config --enable-web
+          flutter pub get
 
       - name: build
         run: flutter build web
