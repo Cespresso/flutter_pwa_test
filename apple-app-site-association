@@ -4,7 +4,7 @@
         "details": [
            {
                "appID":"KA88AMLX78.com.gmail.kumainjava.flutterpwatest",
-               "paths":[ "flutter-pwa-test.firebaseapp.com" ]
+               "paths":[ "*" ]
            }
          ]
     }
