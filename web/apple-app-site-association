@@ -3,8 +3,8 @@
        "apps": [],
         "details": [
            {
-               "appID":"{APP_ID_PREFIX}.{APP_ID}",
-               "paths":[ "*" ]
+               "appID":"KA88AMLX78.com.gmail.kumainjava.flutterpwatest",
+               "paths":[ "flutter-pwa-test.firebaseapp.com" ]
            }
          ]
     }
