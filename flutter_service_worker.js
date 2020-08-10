@@ -7,7 +7,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "apple-app-site-association": "1a03e4b0814a66c8374c2447091486c3",
-"main.dart.js": "d1a623eca352f6f85cb9b95de106c7f4",
+"main.dart.js": "4bfe89327f3c20daf4bc793f7bb3ba67",
 "index.html": "42ca7b864e923250d3c1cba7c833cba1",
 "/": "42ca7b864e923250d3c1cba7c833cba1",
 "manifest.json": "d787eba49805ca3829a6b7b7c70e0c5a",
