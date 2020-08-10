@@ -19,11 +19,8 @@ class LandingPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               child: Text(
-                "We have teken each and every project handed over to us as a challenge, which has helped us achieve a high project success rate",
-                style: TextStyle(
-                  fontSize: 16.0,
-                  color: Colors.white,
-                ),
+                "We have taken each and every project handed over to us as a challenge, which has helped us achieve a high project success rate.",
+                style: TextStyle(fontSize: 16.0, color: Colors.white),
               ),
             ),
             MaterialButton(
@@ -42,15 +39,15 @@ class LandingPage extends StatelessWidget {
                   style: TextStyle(color: Colors.red),
                 ),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 20.0),
-              child: Image.asset(
-                "assets/lp_image.png",
-                width: width,
-              ),
             )
           ],
+        ),
+      ),
+      Padding(
+        padding: const EdgeInsets.symmetric(vertical: 20.0),
+        child: Image.asset(
+          "assets/lp_image.png",
+          width: width,
         ),
       )
     ];
@@ -58,23 +55,19 @@ class LandingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: LayoutBuilder(
-        builder: (context, constraint) {
-          if (constraint.maxWidth > 800) {
-            // desktop
-            return Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: pageChildren(constraint.biggest.width / 2),
-            );
-          } else {
-            // mobile
-            return Column(
-              children: pageChildren(constraint.biggest.width),
-            );
-          }
-        },
-      ),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        if (constraints.maxWidth > 800) {
+          return Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: pageChildren(constraints.biggest.width / 2),
+          );
+        } else {
+          return Column(
+            children: pageChildren(constraints.biggest.width),
+          );
+        }
+      },
     );
   }
 }
